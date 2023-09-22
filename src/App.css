@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+.active{
+  color: green !important;
+}
+
+.in-active{
+  color: tomato !important;
+}
+
+.paginations ul {
+  display: flex;
+  gap: 12px !important;
+}
+.table th{
+  position: relative !important;
+}
+.table tr td{
+  text-align: left;
+  padding: 7px 55px;
+}
+.sort{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 7px;
+  line-height: 16px;
+}
